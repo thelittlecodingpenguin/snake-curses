@@ -52,7 +52,6 @@ while True:
         continue
 
 running = True
-curses.start_color()
 
 if curses.has_colors() == True:
     curses.use_default_colors()
